@@ -37,7 +37,7 @@ h6 {
 .header {
     min-width: 1440px;
     min-height: 669px;
-    background-image: url('../images/donation8.jpg');
+    background-image: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%), url('../images/donation8.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -45,14 +45,10 @@ h6 {
     align-items: center;
     text-align: center;
     color: #FFFFFF;
+   
 }
 
-.banner {
-    background-color: rgba(0, 0, 0, 0.3);
-    padding: 80px 80px;
-    border: 0;
-    border-radius: 10px;
-}
+
 
 .banner-title {
     font-weight: 700;
@@ -63,4 +59,203 @@ h6 {
     margin-top: 20px;
     margin-bottom: 30px;
     font-size: 18px;
+}
+
+/* main */
+main {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* Section */
+.section-title {
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.section-description {
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    color: #707070;
+}
+
+/* Donate Today styles */
+.donate-today {
+    text-align: center;
+    margin-top: 130px;
+}
+
+.donate-amounts {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.amount {
+    padding: 40px 20px;
+    background: #FAFAFA;
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+.amount h4 {
+    font-weight: 700;
+    font-size: 30px;
+    color: #707070;
+}
+
+.active {
+    background: #FFEEEE;
+    ;
+    border: 2px solid #FF5959;
+    border-radius: 5px;
+}
+
+.active h4 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #FF5959;
+}
+
+.other-amount {
+    display: inline-block;
+}
+
+.input-amount {
+    width: 52%;
+    border: 0;
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 10px 5px;
+    border-bottom: 1px solid #DADADA;
+}
+
+/* donate plan */
+.donate-plan {
+    margin-top: 130px;
+}
+
+.plans {
+    margin-top: 50px;
+    display: flex;
+    gap: 20px;
+}
+
+.plan-green {
+    background: rgba(79, 157, 166, 0.1);
+}
+
+.plan-red {
+    background: rgba(255, 89, 89, 0.1);
+}
+
+.plan-yellow {
+    background: #FFF4D6;
+}
+
+.plan {
+    padding: 64px 22px;
+    border-radius: 5px;
+}
+
+.box-title {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.box-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #707070;
+}
+
+/* Blog Styles */
+
+.blog {
+    margin-top: 130px;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 60px;
+}
+
+.blog-article h2 {
+    text-align: left;
+}
+
+.blog-article p {
+    text-align: left;
+}
+
+.blog-img {
+    width: 456px;
+    height: 477px;
+}
+
+.contribute-btn {
+    margin-top: 20px;
+}
+
+/* Update styles */
+.update {
+    margin-top: 130px;
+}
+
+.update-box {
+    margin-top: 50px;
+    background: #FFF4D6;
+    padding: 76px 188px;
+    margin-left: 310px;
+    margin-right: 310px;
+    display: flex;
+    justify-content: center;
+}
+
+.input-update {
+    padding: 14px 218px 14px 17px;
+    border: 0;
+    background: #D9D9D9;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.update-btn {
+    padding: 14px 42px 14px 42px;
+    border: 0;
+    border-radius: 0px 5px 5px 0px;
+}
+
+/* Footer */
+footer {
+    margin-top: 130px;
+    padding: 42px 653px;
+    background: #0B0D17;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-content {
+    text-align: center;
+}
+
+.footer-content h3 {
+    color: #FF5959;
+    margin-bottom: 10px;
+    font-family: 'Lobster';
+    font-weight: 400;
+    font-size: 36px;
+}
+
+.footer-content p {
+    color: #D9DBE1;
+    font-family: 'Manrope';
+    font-weight: 400;
+    font-size: 14px;
+
 }
